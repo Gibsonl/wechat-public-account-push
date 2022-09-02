@@ -4,10 +4,10 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx4470f0df243b8a82",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "110015adedd16ce1c7449f4f3c097fb9",
 
     // 模板消息id
     TEMPLATE_ID: "",
@@ -19,19 +19,15 @@ export const config = {
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '老婆0', id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
+     *   {name: 'hh', id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk"}, 
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: 'haha', id: "G_Ibsonl"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "G_Ibsonl"}, 
     ],
      
     /**
@@ -54,7 +50,7 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
+      {"type": "生日", "name": "晶晶", "year": "1996", "date": "09-02"},
       {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
       {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
